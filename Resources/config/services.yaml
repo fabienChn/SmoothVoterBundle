@@ -1,0 +1,9 @@
+services:
+
+    _defaults:
+        autowire: true
+        public: true
+
+    fabienChn\SmoothVoterBundle\Component\Vote:
+        arguments:
+            $config: "%smooth_voter%"
